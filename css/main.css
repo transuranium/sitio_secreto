@@ -522,4 +522,11 @@ html, body {
         width: 28px;
     }
 
+    /* Map */
+    @media (max-width: 768px) {
+        .google-map {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+
 }
