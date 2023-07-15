@@ -522,13 +522,14 @@ html, body {
         width: 28px;
     }
 
+    /* Map */
+    .google-map {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+
 }
 
 
-    /* Map */
-    @media (max-width: 768px) {
-        .google-map {
-          margin-left: 30px;
-          margin-right: 30px;
-        }
-    }
+
+    
