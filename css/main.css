@@ -524,8 +524,8 @@ html, body {
 
     /* Map */
     .google-map {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 30px!important; ;
+        margin-right: 30px!important; ;
       }
 
 }
