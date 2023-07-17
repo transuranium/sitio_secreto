@@ -437,6 +437,10 @@ html, body {
     margin-top: 0.5em;
 }
 
+.google-map-mobile {
+    display: none;
+}
+
 @media (max-width: 620px) {
 
     /* Header  */
@@ -521,14 +525,10 @@ html, body {
     .social__item {
         width: 28px;
     }
-
-    /* Map */
-    .google-map {
-        margin-left: 30px!important; ;
-        margin-right: 30px!important; ;
-      }
-
+    
 }
+
+
 
 
 
