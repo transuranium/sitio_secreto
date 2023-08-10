@@ -407,6 +407,7 @@ body {
 .content-list__item {
   font-size: 18px;
   line-height: 1.5;
+  width: 100%;
 }
 
 .content-list__item p + p {
@@ -415,7 +416,7 @@ body {
 
 /* Content list */
 
-.article-list {
+.article {
   margin: 0px auto 120px;
   max-width: 570px;
   display: flex;
@@ -425,6 +426,10 @@ body {
   text-align: center;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.article__list {
+  padding: 0 24px;
 }
 
 /* Footer */
