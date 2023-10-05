@@ -128,11 +128,11 @@ body {
 }
 
 @media (max-width: 620px) {
-  .layer__header {
+  .main-article__header {
     font-size: calc(var(--index) * 1.25);
   }
 
-  .main-article__content {
-    font-size: calc(var(--index) * 1.25);
+  .main-article__paragraph {
+    font-size: calc(var(--index) * 1.15);
   }
 }
