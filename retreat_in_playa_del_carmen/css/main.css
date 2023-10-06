@@ -129,10 +129,10 @@ body {
 
 @media (max-width: 620px) {
   .main-article__header {
-    font-size: calc(var(--index) * 1.25);
+    font-size: calc(var(--index) * 1.45);
   }
 
   .main-article__paragraph {
-    font-size: calc(var(--index) * 1.15);
+    font-size: calc(var(--index) * 1.45);
   }
 }
