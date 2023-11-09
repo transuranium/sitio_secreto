@@ -1,50 +1,379 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Camping in Playa Del Carmen</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <script src="js/app.js" defer></script>
-    <script src="libs/rain.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3df637a2f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PizzaShop | Igor Mexicov</title>
   </head>
   <body>
-    <div class="logo" style="background-image: url(img/logo.svg)"></div>
-
-    <section class="layers">
-      <div class="layers__container">
-        <div
-          class="layers__item layer-1"
-          style="background-image: url(img/layer-1.jpg)"
-        ></div>
-        <div
-          class="layers__item layer-2"
-          style="background-image: url(img/layer-2.png)"
-        ></div>
-        <div class="layers__item layer-3">
-          <div class="hero-content">
-            <h1>Camping in <span>Playa Del Carmen</span></h1>
-            <div class="hero-content__p">Stay alone with nature</div>
+    <header>
+      <div class="content">
+        <div class="logo">
+          <img
+            src="./img/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png"
+            alt="Cupcake"
+          />
+          <h3>PizzaShop</h3>
+        </div>
+        <ul class="list-menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#sobrenos">Acerca de mí</a></li>
+          <li><a href="#cardapio">Menú</a></li>
+          <li><a href="#contatos">Contacto</a></li>
+          <li>
             <a
-              href="retreat_in_playa_del_carmen/index.html"
-              class="button-start"
-              >More</a
-            >
-          </div>
+              href="https://www.tiktok.com/@igor_mexicov?lang=ru-RU"
+              target="_blank"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://web.facebook.com/profile.php?id=100095519742734"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+        </ul>
+
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
         </div>
-        <div class="layers__item layer-4">
-          <canvas class="rain"></canvas>
+      </div>
+    </header>
+
+    <section class="first-section" id="home">
+      <div class="conteudo-principal">
+        <h1>¡Haz tu día más sabroso!</h1>
+        <h2>Más que solo pizza</h2>
+        <div class="btn">
+          <button
+            class="reservar"
+            onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+            style="background-color: #ffc506; border-radius: 10px; color: black"
+          >
+            ¡Contáctame!
+          </button>
+          <button
+            class="montar"
+            onclick="window.open('https://www.tiktok.com/@igor_mexicov?lang=ru-RU', '_blank')"
+            style="background-color: #ffc506; border-radius: 10px; color: black"
+          >
+            ¡Sígueme!
+          </button>
         </div>
-        <div
-          class="layers__item layer-5"
-          style="background-image: url(img/layer-5.png)"
-        ></div>
-        <div
-          class="layers__item layer-6"
-          style="background-image: url(img/layer-6.png)"
-        ></div>
       </div>
     </section>
+
+    <section class="sobre-nos" id="sobrenos">
+      <div class="main">
+        <div class="contentsobre">
+          <h2>Acerca de mí</h2>
+          <p>
+            Hola. Soy una persona nueva en el país y en la ciudad y me gustaría
+            hacer nuevos amigos aquí. Hago y entrego pizzas y también soy
+            masajista. Por eso, decidí hacer una promoción: si compras 2 pizzas
+            por semana, podrás aprovechar un masaje facial gratis, si compras 5
+            pizzas por semana, luego un masaje corporal gratis. También estoy
+            siempre abierto a nuevas ideas, deseos y consejos. Nos vemos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cardapio" id="cardapio">
+      <h2>Menú</h2>
+
+      <div class="itens-cardapio">
+        <div class="frango">
+          <img src="./img/frango-removebg-preview.png" alt="Hawaina" />
+          <div class="info">
+            <h3>Hawaina: Jamon, Pina, Queso, Salsa de tomate</h3>
+            <h4>8 rebanadas <span>150 pesos</span></h4>
+            <h4>12 rebanadas <span>190 pesos</span></h4>
+            <h4>16 rebanadas <span>275 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="calabresa">
+          <img src="./img/frango-removebg-preview.png" alt="Pepperoni" />
+          <div class="info">
+            <h3>Pepperoni: Pepperoni, Queso, Salsa de tomate</h3>
+            <h4>8 rebanadas <span>150 pesos</span></h4>
+            <h4>12 rebanadas <span>190 pesos</span></h4>
+            <h4>16 rebanadas <span>275 pesos</span></h4>
+            <button class="pedir">pregunta ahora</button>
+          </div>
+        </div>
+        <div class="portuguesa">
+          <img src="./img/frango-removebg-preview.png" alt="Champinon" />
+          <div class="info">
+            <h3>Champinon: Champinon, Queso, Salsa de tomate</h3>
+            <h4>8 rebanadas <span>150 pesos</span></h4>
+            <h4>12 rebanadas <span>190 pesos</span></h4>
+            <h4>16 rebanadas <span>275 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="strogonoff">
+          <img
+            src="./img/frango-removebg-preview.png"
+            alt="Chorizo argentino"
+          />
+          <div class="info">
+            <h3>Chorizo argentino: Chorizo argentino, Queso, Salsa de tomat</h3>
+            <h4>8 rebanadas <span>150 pesos</span></h4>
+            <h4>12 rebanadas <span>190 pesos</span></h4>
+            <h4>16 rebanadas <span>275 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="ChocolatePreto">
+          <img src="./img/frango-removebg-preview.png" alt="Al Pastor" />
+          <div class="info">
+            <h3>
+              Al Pastor: Carne al pastor, Pina, Jalapeno, Cebolla, Queso, Salsa
+              de tomate
+            </h3>
+            <h4>8 rebanadas <span>180 pesos</span></h4>
+            <h4>12 rebanadas <span>230 pesos</span></h4>
+            <h4>16 rebanadas <span>315 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="sensacao">
+          <img src="./img/frango-removebg-preview.png" alt="Chuletisima" />
+          <div class="info">
+            <h3>Chuletisima - Chuleta, Queso, Salsa de tomate</h3>
+            <h4>8 rebanadas <span>190 pesos</span></h4>
+            <h4>12 rebanadas <span>230 pesos</span></h4>
+            <h4>16 rebanadas <span>309 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="confete">
+          <img
+            src="./img/frango-removebg-preview.png"
+            alt="Especial de la casa"
+          />
+          <div class="info">
+            <h3>
+              Especial de la casa - Chelueta, Carne al Pastor, Chorizo,
+              Pimiento, Cebolla, Queso, Salsa de tomate
+            </h3>
+            <h4>8 rebanadas <span>205 pesos</span></h4>
+            <h4>12 rebanadas <span>280 pesos</span></h4>
+            <h4>16 rebanadas <span>335 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="prestigio">
+          <img src="./img/frango-removebg-preview.png" alt="Suprema" />
+          <div class="info">
+            <h3>
+              Suprema - Chuleta, Arrachera, Carne al Pastor y Tocino, Queso,
+              Salsa de tomate
+            </h3>
+            <h4>8 rebanadas <span>235 pesos</span></h4>
+            <h4>12 rebanadas <span>280 pesos</span></h4>
+            <h4>16 rebanadas <span>339 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="prestigio">
+          <img src="./img/frango-removebg-preview.png" alt="Vegetariana" />
+          <div class="info">
+            <h3>
+              Vegetariana - Champinon, Pimiento, Aceituna y cebolla, Queso,
+              Salsa de tomate
+            </h3>
+            <h4>8 Rebanadas <span>170 pesos</span></h4>
+            <h4>12 Rebanadas <span>230 pesos</span></h4>
+            <h4>16 Rebanadas <span>335 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="prestigio">
+          <img src="./img/frango-removebg-preview.png" alt="Tres Quesos" />
+          <div class="info">
+            <h3>Tres Quesos - Manchego y Mozzarella, Gouda</h3>
+            <h4>8 rebanadas <span>170 pesos</span></h4>
+            <h4>12 rebanadas <span>240 pesos</span></h4>
+            <h4>16 rebanadas <span>330 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+        <div class="prestigio">
+          <img src="./img/frango-removebg-preview.png" alt="Mexicana" />
+          <div class="info">
+            <h3>Mexicana - Chorizo, Jalapeno y cebolla</h3>
+            <h4>8 rebanadas <span>170 pesos</span></h4>
+            <h4>12 rebanadas <span>230 pesos</span></h4>
+            <h4>16 rebanadas <span>309 pesos</span></h4>
+            <button
+              class="pedir"
+              onclick="window.open('https://api.whatsapp.com/send?phone=525639305210', '_blank')"
+              style="
+                background-color: #ffc506;
+                border-radius: 10px;
+                color: black;
+              "
+            >
+              pregunta ahora
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contatos" id="contatos">
+      <h3>Contatos</h3>
+      <div class="contatos-secao">
+        <div>
+          <i class="fab fa-whatsapp"></i>
+          <a
+            href="https://api.whatsapp.com/send?phone=525639305210"
+            target="_blank"
+          >
+            <span
+              style="color: white"
+              onmouseover="this.style.color='#ffc506'"
+              onmouseout="this.style.color='white'"
+              >+52 563 930 52 10</span
+            >
+          </a>
+        </div>
+        <div>
+          <i class="fab fa-tiktok" target="_blank"></i>
+          <a
+            href="https://www.tiktok.com/@igor_mexicov?lang=ru-RU"
+            target="_blank"
+          >
+            <span
+              style="color: white"
+              onmouseover="this.style.color='#ffc506'"
+              onmouseout="this.style.color='white'"
+              >@igor_mexicov</span
+            >
+          </a>
+        </div>
+        <div>
+          <i class="fab fa-facebook-f" target="_blank"></i>
+          <a
+            href="https://web.facebook.com/profile.php?id=100095519742734"
+            target="_blank"
+          >
+            <span
+              style="color: white"
+              onmouseover="this.style.color='#ffc506'"
+              onmouseout="this.style.color='white'"
+              >Igor Mexicov</span
+            >
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
